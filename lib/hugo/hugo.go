@@ -30,7 +30,7 @@ func loadDefaultSettings(config Config) {
 	viper.SetDefault("ThemesDir", "themes")
 	viper.SetDefault("DefaultLayout", "post")
 	viper.SetDefault("Verbose", false)
-	viper.SetDefault("Taxonomies", map[string]string{"tag": "tags", "category": "categories"})
+	viper.SetDefault("Taxonomies", map[string]string{"tag": "tags"})
 }
 
 // Init ...
@@ -106,7 +106,6 @@ func getMetadata(post ghost.Post, export *ghost.ExportData) map[string]interface
 	tags := post.Tags(export)
 	if len(tags) > 0 {
 		metadata["tags"] = tagsToStringSlice(tags)
-		metadata["categories"] = tagsToStringSlice(tags)
 	}
 	author := post.Author(export)
 	if author != nil {

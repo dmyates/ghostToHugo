@@ -3,6 +3,8 @@
 **ghostToHugo** is a utility project that was created the allow the conversion
 of an export from the Ghost blogging engine into the Hugo engine.
 
+**This fork** prevents the redundant creation of both categories and tags from Ghost's tags, choosing to only create tags.
+
 ## Installing
 
 The project is written in Go, and currently will require building from source.
