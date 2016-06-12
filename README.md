@@ -11,7 +11,7 @@ The project is written in Go, and currently will require building from source.
 Make sure you have Go installed and configured, then just run:
 
 ```
-go get github.com/jbarone/ghostToHugo
+go get github.com/dmyates/ghostToHugo
 ```
 
 this will download, compile, and install `ghostToHugo`
