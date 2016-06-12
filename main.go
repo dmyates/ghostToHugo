@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jbarone/ghostToHugo/lib/ghost"
-	"github.com/jbarone/ghostToHugo/lib/hugo"
+	"github.com/dmyates/ghostToHugo/lib/ghost"
+	"github.com/dmyates/ghostToHugo/lib/hugo"
 )
 
 func usage() {
