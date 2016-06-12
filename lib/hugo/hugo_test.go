@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jbarone/ghostToHugo/lib/ghost"
+	"github.com/dmyates/ghostToHugo/lib/ghost"
 	"github.com/spf13/viper"
 )
 
