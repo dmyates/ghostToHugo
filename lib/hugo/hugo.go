@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jbarone/ghostToHugo/lib/ghost"
+	"github.com/dmyates/ghostToHugo/lib/ghost"
 	"github.com/spf13/hugo/helpers"
 	"github.com/spf13/hugo/hugolib"
 	"github.com/spf13/hugo/parser"
